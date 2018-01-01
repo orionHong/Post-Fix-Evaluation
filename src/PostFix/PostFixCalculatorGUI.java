@@ -83,7 +83,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        fiveBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        fiveBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         fiveBt.setText("5");
         fiveBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,7 +91,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        sevenBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        sevenBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         sevenBt.setText("7");
         sevenBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +99,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        eightBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        eightBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         eightBt.setText("8");
         eightBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +107,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        sixBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        sixBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         sixBt.setText("6");
         sixBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,7 +115,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        nineBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        nineBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         nineBt.setText("9");
         nineBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,7 +123,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        twoBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        twoBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         twoBt.setText("2");
         twoBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +131,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        oneBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        oneBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         oneBt.setText("1");
         oneBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +139,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        fourBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        fourBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         fourBt.setText("4");
         fourBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +147,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        threeBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        threeBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         threeBt.setText("3");
         threeBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,7 +155,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        multiplyBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        multiplyBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         multiplyBt.setText("×");
         multiplyBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,7 +163,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        divideBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        divideBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         divideBt.setText("÷");
         divideBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,7 +171,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        subtractBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        subtractBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         subtractBt.setText("-");
         subtractBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,15 +179,18 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        addBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        addBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         addBt.setText("+");
+        addBt.setFocusable(false);
+        addBt.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        addBt.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         addBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addBtActionPerformed(evt);
             }
         });
 
-        zeroBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        zeroBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         zeroBt.setText("0");
         zeroBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,7 +198,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        spaceBt.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        spaceBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spaceBt.setText("Space");
         spaceBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,7 +206,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        equalBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        equalBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         equalBt.setText("=");
         equalBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -211,16 +214,22 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        deleteBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        deleteBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         deleteBt.setText("DEL");
+        deleteBt.setFocusable(false);
+        deleteBt.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        deleteBt.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         deleteBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 deleteBtActionPerformed(evt);
             }
         });
 
-        clearAllBt.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        clearAllBt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         clearAllBt.setText("AC");
+        clearAllBt.setFocusable(false);
+        clearAllBt.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        clearAllBt.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         clearAllBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearAllBtActionPerformed(evt);
@@ -232,83 +241,90 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(clearAllBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(oneBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fourBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(sevenBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(zeroBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(deleteBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(addBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(oneBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(clearAllBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(deleteBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(twoBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(fourBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fiveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(sevenBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(eightBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(addBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(subtractBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(sixBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nineBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(threeBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(divideBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(multiplyBt, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                        .addContainerGap(13, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(twoBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(threeBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(fiveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(sixBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(eightBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)
-                        .addComponent(nineBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(spaceBt, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(divideBt, javax.swing.GroupLayout.DEFAULT_SIZE, 155, Short.MAX_VALUE)
-                    .addComponent(equalBt, javax.swing.GroupLayout.DEFAULT_SIZE, 155, Short.MAX_VALUE)
-                    .addComponent(multiplyBt, javax.swing.GroupLayout.DEFAULT_SIZE, 155, Short.MAX_VALUE)
-                    .addComponent(subtractBt, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE))
-                .addGap(128, 128, 128))
+                        .addComponent(zeroBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(spaceBt, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(equalBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(subtractBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(addBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(deleteBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(clearAllBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(multiplyBt, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(divideBt, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(oneBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(twoBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(threeBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(fourBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(fiveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(sixBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(sevenBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(eightBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(nineBt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(clearAllBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(deleteBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(addBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(subtractBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(equalBt, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(spaceBt, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(zeroBt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(37, 37, 37))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(twoBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(threeBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(oneBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(fourBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(fiveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(sixBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(sevenBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(eightBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(nineBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(multiplyBt, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(divideBt, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(zeroBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(spaceBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(equalBt, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        equationListPnl.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        equationListPnl.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         equationListPnl.setModel(equationList);
         equationListPnl.setToolTipText("");
         equationListPnl.setDragEnabled(true);
@@ -319,7 +335,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(equationListPnl);
 
-        loadBt.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        loadBt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         loadBt.setText("L O A D");
         loadBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -327,7 +343,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        showCase.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 48)); // NOI18N
+        showCase.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 18)); // NOI18N
         showCase.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         showCase.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
@@ -336,7 +352,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(showCase);
 
-        deleteListBt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        deleteListBt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         deleteListBt.setText("Delete List");
         deleteListBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -344,7 +360,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        saveBt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        saveBt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         saveBt.setText("Save List");
         saveBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -352,7 +368,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        charMode.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        charMode.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         charMode.setText("Char");
         charMode.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -360,7 +376,7 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             }
         });
 
-        newListBt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        newListBt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         newListBt.setText("+");
         newListBt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -374,24 +390,24 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jScrollPane2)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(saveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(33, 33, 33)
-                                .addComponent(newListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(deleteListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1)
-                            .addComponent(loadBt, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE))
-                        .addGap(0, 4, Short.MAX_VALUE)))
-                .addGap(18, 18, 18)
-                .addComponent(charMode)
-                .addContainerGap(39, Short.MAX_VALUE))
+                            .addComponent(loadBt, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(saveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(newListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(deleteListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(charMode)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -399,135 +415,27 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(37, 37, 37)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(72, 72, 72)
+                        .addGap(66, 66, 66)
                         .addComponent(charMode)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(29, 29, 29)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(79, 79, 79))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(137, 137, 137)
-                        .addComponent(loadBt, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                            .addComponent(newListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(saveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(deleteListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addComponent(loadBt, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(deleteListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(saveBt, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(newListBt, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void twoBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twoBtActionPerformed
-        showCase.setText(showCase.getText() + '2');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_twoBtActionPerformed
-
-    private void multiplyBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplyBtActionPerformed
-        showCase.setText(showCase.getText() + '*');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_multiplyBtActionPerformed
-
-    private void threeBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeBtActionPerformed
-        showCase.setText(showCase.getText() + '3');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_threeBtActionPerformed
-
-    private void divideBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divideBtActionPerformed
-        showCase.setText(showCase.getText() + '/');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_divideBtActionPerformed
-
-    private void subtractBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtractBtActionPerformed
-        showCase.setText(showCase.getText() + '-');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_subtractBtActionPerformed
-
-    private void addBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBtActionPerformed
-        showCase.setText(showCase.getText() + '+');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_addBtActionPerformed
-
-    private void equalBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_equalBtActionPerformed
-        saveEquation();
-
-        c.doCalculation();
-
-        doc.setDocumentFilter(new DocumentFilter());
-        showCase.setText(showCase.getText() + " == "
-            + getSelectedEquation().getResult());
-
-        resetMode(isChar);
-
-        equalBt.setEnabled(false);
-
-    }//GEN-LAST:event_equalBtActionPerformed
-
-    private void oneBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneBtActionPerformed
-        showCase.setText(showCase.getText() + '1');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_oneBtActionPerformed
-
-    private void fourBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourBtActionPerformed
-        showCase.setText(showCase.getText() + '4');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_fourBtActionPerformed
-
-    private void fiveBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fiveBtActionPerformed
-        showCase.setText(showCase.getText() + '5');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_fiveBtActionPerformed
-
-    private void sixBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixBtActionPerformed
-        showCase.setText(showCase.getText() + '6');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_sixBtActionPerformed
-
-    private void sevenBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sevenBtActionPerformed
-        showCase.setText(showCase.getText() + '7');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_sevenBtActionPerformed
-
-    private void eightBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightBtActionPerformed
-        showCase.setText(showCase.getText() + '8');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_eightBtActionPerformed
-
-    private void nineBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineBtActionPerformed
-        showCase.setText(showCase.getText() + '9');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_nineBtActionPerformed
-
-    private void zeroBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zeroBtActionPerformed
-        showCase.setText(showCase.getText() + '0');
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_zeroBtActionPerformed
-
-    private void spaceBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_spaceBtActionPerformed
-        showCase.setText(showCase.getText() + " ");
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_spaceBtActionPerformed
-
-    private void deleteBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteBtActionPerformed
-        try{
-            StringBuffer newS = new StringBuffer(showCase.getText());
-            showCase.setText(newS.deleteCharAt(newS.length() - 1).toString());
-        }
-        catch(StringIndexOutOfBoundsException ex){
-        }
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_deleteBtActionPerformed
-
-    private void clearAllBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearAllBtActionPerformed
-        showCase.setText(null);
-        showCase.requestFocusInWindow();
-    }//GEN-LAST:event_clearAllBtActionPerformed
 
     private void deleteListBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteListBtActionPerformed
         int idx = equationListPnl.getSelectedIndex();
@@ -629,6 +537,110 @@ public class PostFixCalculatorGUI extends javax.swing.JFrame {
     private void showCaseKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_showCaseKeyPressed
         equalBt.setEnabled(true);
     }//GEN-LAST:event_showCaseKeyPressed
+
+    private void clearAllBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearAllBtActionPerformed
+        showCase.setText(null);
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_clearAllBtActionPerformed
+
+    private void deleteBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteBtActionPerformed
+        try{
+            StringBuffer newS = new StringBuffer(showCase.getText());
+            showCase.setText(newS.deleteCharAt(newS.length() - 1).toString());
+        }
+        catch(StringIndexOutOfBoundsException ex){
+        }
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_deleteBtActionPerformed
+
+    private void equalBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_equalBtActionPerformed
+        saveEquation();
+
+        c.doCalculation();
+
+        doc.setDocumentFilter(new DocumentFilter());
+        showCase.setText(showCase.getText() + " == "
+            + getSelectedEquation().getResult());
+
+        resetMode(isChar);
+
+        equalBt.setEnabled(false);
+    }//GEN-LAST:event_equalBtActionPerformed
+
+    private void spaceBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_spaceBtActionPerformed
+        showCase.setText(showCase.getText() + " ");
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_spaceBtActionPerformed
+
+    private void zeroBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zeroBtActionPerformed
+        showCase.setText(showCase.getText() + '0');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_zeroBtActionPerformed
+
+    private void addBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBtActionPerformed
+        showCase.setText(showCase.getText() + '+');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_addBtActionPerformed
+
+    private void subtractBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtractBtActionPerformed
+        showCase.setText(showCase.getText() + '-');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_subtractBtActionPerformed
+
+    private void divideBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divideBtActionPerformed
+        showCase.setText(showCase.getText() + '/');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_divideBtActionPerformed
+
+    private void multiplyBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplyBtActionPerformed
+        showCase.setText(showCase.getText() + '*');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_multiplyBtActionPerformed
+
+    private void threeBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeBtActionPerformed
+        showCase.setText(showCase.getText() + '3');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_threeBtActionPerformed
+
+    private void fourBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourBtActionPerformed
+        showCase.setText(showCase.getText() + '4');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_fourBtActionPerformed
+
+    private void oneBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneBtActionPerformed
+        showCase.setText(showCase.getText() + '1');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_oneBtActionPerformed
+
+    private void twoBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twoBtActionPerformed
+        showCase.setText(showCase.getText() + '2');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_twoBtActionPerformed
+
+    private void nineBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineBtActionPerformed
+        showCase.setText(showCase.getText() + '9');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_nineBtActionPerformed
+
+    private void sixBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixBtActionPerformed
+        showCase.setText(showCase.getText() + '6');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_sixBtActionPerformed
+
+    private void eightBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightBtActionPerformed
+        showCase.setText(showCase.getText() + '8');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_eightBtActionPerformed
+
+    private void sevenBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sevenBtActionPerformed
+        showCase.setText(showCase.getText() + '7');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_sevenBtActionPerformed
+
+    private void fiveBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fiveBtActionPerformed
+        showCase.setText(showCase.getText() + '5');
+        showCase.requestFocusInWindow();
+    }//GEN-LAST:event_fiveBtActionPerformed
     
     /*** Add a Controller to GUI ***/
     public void addController(PostFixController c){

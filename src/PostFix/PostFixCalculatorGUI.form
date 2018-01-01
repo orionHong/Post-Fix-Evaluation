@@ -23,30 +23,31 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="jScrollPane2" max="32767" attributes="0"/>
-                  <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="saveBt" min="-2" pref="158" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="newListBt" min="-2" pref="70" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="deleteListBt" min="-2" pref="158" max="-2" attributes="0"/>
+                          <Component id="loadBt" min="-2" pref="210" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="210" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="saveBt" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="newListBt" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="deleteListBt" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="loadBt" alignment="0" pref="460" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="4" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="451" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="charMode" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="charMode" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -56,33 +57,29 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="84" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
                       <Component id="charMode" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace pref="107" max="32767" attributes="0"/>
-                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="loadBt" min="-2" pref="68" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
-                      <Component id="loadBt" min="-2" pref="172" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="439" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="2" attributes="0">
-                          <Component id="newListBt" alignment="2" min="-2" pref="70" max="-2" attributes="0"/>
-                          <Component id="saveBt" alignment="2" min="-2" pref="70" max="-2" attributes="0"/>
-                          <Component id="deleteListBt" alignment="2" min="-2" pref="70" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deleteListBt" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="saveBt" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="newListBt" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -94,100 +91,112 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="2" attributes="0">
-                      <Component id="clearAllBt" alignment="2" min="-2" pref="130" max="-2" attributes="0"/>
-                      <Component id="oneBt" alignment="2" min="-2" pref="130" max="-2" attributes="0"/>
-                      <Component id="fourBt" alignment="2" min="-2" pref="130" max="-2" attributes="0"/>
-                      <Component id="sevenBt" alignment="2" min="-2" pref="130" max="-2" attributes="0"/>
-                      <Component id="zeroBt" alignment="2" min="-2" pref="130" max="-2" attributes="0"/>
-                  </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="2" attributes="0">
-                      <Group type="102" alignment="2" attributes="0">
-                          <Component id="deleteBt" min="-2" pref="130" max="-2" attributes="0"/>
-                          <EmptySpace min="12" pref="12" max="12" attributes="0"/>
-                          <Component id="addBt" min="-2" pref="130" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="oneBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="clearAllBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="deleteBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="twoBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="fourBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="fiveBt" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="sevenBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="eightBt" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="addBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="subtractBt" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sixBt" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="nineBt" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="threeBt" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="divideBt" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="multiplyBt" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="13" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="2" attributes="0">
-                          <Component id="twoBt" min="-2" pref="130" max="-2" attributes="0"/>
-                          <EmptySpace min="12" pref="12" max="12" attributes="0"/>
-                          <Component id="threeBt" min="-2" pref="130" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="zeroBt" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="spaceBt" min="-2" pref="106" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="equalBt" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="2" attributes="0">
-                          <Component id="fiveBt" min="-2" pref="130" max="-2" attributes="0"/>
-                          <EmptySpace min="12" pref="12" max="12" attributes="0"/>
-                          <Component id="sixBt" min="-2" pref="130" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="2" attributes="0">
-                          <Component id="eightBt" min="-2" pref="130" max="-2" attributes="0"/>
-                          <EmptySpace min="12" pref="12" max="12" attributes="0"/>
-                          <Component id="nineBt" min="-2" pref="130" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="spaceBt" alignment="2" min="-2" pref="272" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="divideBt" pref="155" max="32767" attributes="0"/>
-                      <Component id="equalBt" pref="155" max="32767" attributes="0"/>
-                      <Component id="multiplyBt" pref="155" max="32767" attributes="0"/>
-                      <Component id="subtractBt" alignment="0" pref="130" max="32767" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="subtractBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="addBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="deleteBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                          </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="clearAllBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="deleteBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="addBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="clearAllBt" min="-2" pref="130" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="multiplyBt" min="-2" pref="204" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="divideBt" min="-2" pref="198" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="oneBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="twoBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="threeBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="fourBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="fiveBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="sixBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="sevenBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="eightBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="nineBt" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <Component id="subtractBt" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="2" attributes="0">
-                      <Component id="equalBt" alignment="2" min="-2" pref="155" max="-2" attributes="0"/>
-                      <Component id="spaceBt" alignment="2" min="-2" pref="155" max="-2" attributes="0"/>
-                      <Component id="zeroBt" alignment="2" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="twoBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="threeBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="oneBt" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="fourBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="fiveBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="sixBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="sevenBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="eightBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="nineBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="multiplyBt" min="-2" pref="78" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="divideBt" min="-2" pref="78" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zeroBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="spaceBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="equalBt" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -196,7 +205,7 @@
         <Component class="javax.swing.JButton" name="fiveBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="5"/>
           </Properties>
@@ -207,7 +216,7 @@
         <Component class="javax.swing.JButton" name="sevenBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="7"/>
           </Properties>
@@ -218,7 +227,7 @@
         <Component class="javax.swing.JButton" name="eightBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="8"/>
           </Properties>
@@ -229,7 +238,7 @@
         <Component class="javax.swing.JButton" name="sixBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="6"/>
           </Properties>
@@ -240,7 +249,7 @@
         <Component class="javax.swing.JButton" name="nineBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="9"/>
           </Properties>
@@ -251,7 +260,7 @@
         <Component class="javax.swing.JButton" name="twoBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="2"/>
           </Properties>
@@ -262,7 +271,7 @@
         <Component class="javax.swing.JButton" name="oneBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="1"/>
           </Properties>
@@ -273,7 +282,7 @@
         <Component class="javax.swing.JButton" name="fourBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="4"/>
           </Properties>
@@ -284,7 +293,7 @@
         <Component class="javax.swing.JButton" name="threeBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="3"/>
           </Properties>
@@ -295,7 +304,7 @@
         <Component class="javax.swing.JButton" name="multiplyBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#xd7;"/>
           </Properties>
@@ -306,7 +315,7 @@
         <Component class="javax.swing.JButton" name="divideBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#xf7;"/>
           </Properties>
@@ -317,7 +326,7 @@
         <Component class="javax.swing.JButton" name="subtractBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="-"/>
           </Properties>
@@ -328,9 +337,12 @@
         <Component class="javax.swing.JButton" name="addBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="+"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addBtActionPerformed"/>
@@ -339,7 +351,7 @@
         <Component class="javax.swing.JButton" name="zeroBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="0"/>
           </Properties>
@@ -350,7 +362,7 @@
         <Component class="javax.swing.JButton" name="spaceBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="36" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Space"/>
           </Properties>
@@ -361,7 +373,7 @@
         <Component class="javax.swing.JButton" name="equalBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="="/>
           </Properties>
@@ -372,9 +384,12 @@
         <Component class="javax.swing.JButton" name="deleteBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="DEL"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteBtActionPerformed"/>
@@ -383,9 +398,12 @@
         <Component class="javax.swing.JButton" name="clearAllBt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="48" style="0"/>
+              <Font name="Tahoma" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="AC"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearAllBtActionPerformed"/>
@@ -400,7 +418,7 @@
         <Component class="javax.swing.JList" name="equationListPnl">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="36" style="0"/>
+              <Font name="Tahoma" size="14" style="0"/>
             </Property>
             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
               <Connection code="equationList" type="code"/>
@@ -420,7 +438,7 @@
     <Component class="javax.swing.JButton" name="loadBt">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="36" style="0"/>
+          <Font name="Tahoma" size="24" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="L O A D"/>
       </Properties>
@@ -435,7 +453,7 @@
         <Component class="javax.swing.JTextField" name="showCase">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Rounded MT Bold" size="48" style="1"/>
+              <Font name="Arial Rounded MT Bold" size="18" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="4"/>
           </Properties>
@@ -448,7 +466,7 @@
     <Component class="javax.swing.JButton" name="deleteListBt">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="0"/>
+          <Font name="Tahoma" size="12" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Delete List"/>
       </Properties>
@@ -459,7 +477,7 @@
     <Component class="javax.swing.JButton" name="saveBt">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="0"/>
+          <Font name="Tahoma" size="12" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Save List"/>
       </Properties>
@@ -470,7 +488,7 @@
     <Component class="javax.swing.JRadioButton" name="charMode">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="0"/>
+          <Font name="Tahoma" size="12" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Char"/>
       </Properties>
@@ -481,7 +499,7 @@
     <Component class="javax.swing.JButton" name="newListBt">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="0"/>
+          <Font name="Tahoma" size="12" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="+"/>
       </Properties>
