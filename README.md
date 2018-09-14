@@ -2,10 +2,10 @@
 A program that can evaluate post-fix calculation. 
 <br> *e.g.* 4 5 7 - +  evaluates to 6, since 4 - 5 = -1 and -1 + 7 = 6
 
-## Tools used
-- Framework: Java Swing, MVC.
-- IDE: NetBeans
--  Abstract Data Type: Stack (actually main goals for this project is to fully understand stack's usage
+## Highlights
+- Java, NetBeans
+- MVC Pattern
+- Abstract Data Type: Stack (actually the main goal for this project is to fully understand the usage of Stack)
 
 <br>
 
